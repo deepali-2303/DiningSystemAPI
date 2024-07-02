@@ -1,0 +1,12 @@
+# Dependency directories
+/node_modules
+
+# Environment variables file (if using dotenv or similar)
+.env
+
+# Logs
+*.log
+
+# Build artifacts
+/dist
+/build
