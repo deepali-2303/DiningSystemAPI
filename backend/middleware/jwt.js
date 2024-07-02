@@ -6,7 +6,7 @@ const generateToken = (id, admin) => {
     console.log(admin);
     var key = process.env.JWT_SECRET;
     if(admin) {
-        key = process.env.JWT_ADMIN_SECRET;
+        key = process.env.JWT_SECRET;
     }
     else
     {

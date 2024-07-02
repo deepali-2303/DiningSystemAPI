@@ -5,7 +5,7 @@ import protect from '../middleware/auth.js';
 
 const router = express.Router();  
 
-router.post('/create', protectAdmin,addDiningPlace);
+router.post('/admin/create', protectAdmin,addDiningPlace);
 router.get('/search',searchByName);
 router.get('/availability/:place_id',checkAvailability );
 router.post('/book', protect, bookSlot)
