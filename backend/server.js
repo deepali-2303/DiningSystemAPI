@@ -14,11 +14,7 @@ app.use(express.json()); // to recognize the incoming Request Object as a JSON O
 app.use('/users', userRoute); 
 app.use('/dining-place', diningRoute);
 app.use('/admin', adminRoute)
-// app.use('/notes', noteRoute);
 
-// app.use('/', (req, res) => { 
-//     res.send('Note App');
-// })
 
 app.listen(PORT, () => { // start a server on port 5000
     console.log(`Server is running on port ${PORT}`);
